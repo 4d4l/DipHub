@@ -11988,7 +11988,7 @@ tww.Font = Enum.Font.SciFi
 tww.Text = "The Wild West"
 tww.TextColor3 = Color3.fromRGB(255, 255, 255)
 tww.TextSize = 15.000
-tww.MouseButton1Click:connect(function)()
+tww.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ROBLOX/main/TWW%20Legendary%20Finder.lua"))()
 wait(1)
 	print('The Wild West Legendary Pet Finder has been loaded!')
@@ -12018,7 +12018,7 @@ W4.Font = Enum.Font.SciFi
 W4.Text = "Vape V4"
 W4.TextColor3 = Color3.fromRGB(255, 255, 255)
 W4.TextSize = 20.000
-W4.MouseButton1Click:connect(function)()
+W4.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 wait(1)
 	print('Vape V4 Successfully Injected!')
@@ -12034,7 +12034,7 @@ Owl.Font = Enum.Font.SciFi
 Owl.Text = "OwlHub"
 Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
 Owl.TextSize = 20.000
-Owl.MouseButton1Click:connect(function)()
+Owl.MouseButton1Click:connect(function()
 	(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 wait(1)
 	print('Owl Hub Loaded!')
@@ -12066,7 +12066,7 @@ Scb.Font = Enum.Font.SciFi
 Scb.Text = "Chat Bypasser"
 Scb.TextColor3 = Color3.fromRGB(255, 255, 255)
 Scb.TextSize = 14.000
-Scb.MouseButton1Click:connect(function)()
+Scb.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 wait(1)
 	RoGhoul.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
