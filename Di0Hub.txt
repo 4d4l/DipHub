@@ -15,6 +15,7 @@ local W4 = Instance.new("TextButton")
 local Owl = Instance.new("TextButton")
 local About = Instance.new("TextButton")
 local Scb = Instance.new("TextButton")
+local RoGhoul = Instance.new("TextButton")
 local help = Instance.new("TextButton")
 local OpenIdk = Instance.new("Frame")
 local Open = Instance.new("TextButton")
@@ -50,7 +51,7 @@ InfiniteYield.Font = Enum.Font.SciFi
 InfiniteYield.Text = "Infinite Yield"
 InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfiniteYield.TextSize = 14.000
-InfiniteYield.MouseButton1Click:connect(function()
+InfiniteYield.MouseButton1Click:connect(function)()
 	if IY_LOADED and not _G.IY_DEBUG == true then
 		error("Infinite Yield is already running!",0)
 		return
@@ -11987,14 +11988,13 @@ tww.Font = Enum.Font.SciFi
 tww.Text = "The Wild West"
 tww.TextColor3 = Color3.fromRGB(255, 255, 255)
 tww.TextSize = 15.000
-tww.MouseButton1Click:connect(function()
+tww.MouseButton1Click:connect(function)()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ROBLOX/main/TWW%20Legendary%20Finder.lua"))()
 wait(1)
 	print('The Wild West Legendary Pet Finder has been loaded!')
 end)
 
 -- Close Button Script
-
 close.Name = "close"
 close.Parent = Idk
 close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -12018,7 +12018,7 @@ W4.Font = Enum.Font.SciFi
 W4.Text = "Vape V4"
 W4.TextColor3 = Color3.fromRGB(255, 255, 255)
 W4.TextSize = 20.000
-W4.MouseButton1Click:connect(function()
+W4.MouseButton1Click:connect(function)()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 wait(1)
 	print('Vape V4 Successfully Injected!')
@@ -12034,9 +12034,9 @@ Owl.Font = Enum.Font.SciFi
 Owl.Text = "OwlHub"
 Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
 Owl.TextSize = 20.000
-Owl.MouseButton1Click:connect(function()
+Owl.MouseButton1Click:connect(function)()
 	(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-	wait(1)
+wait(1)
 	print('Owl Hub Loaded!')
 end)
 
@@ -12066,10 +12066,25 @@ Scb.Font = Enum.Font.SciFi
 Scb.Text = "Chat Bypasser"
 Scb.TextColor3 = Color3.fromRGB(255, 255, 255)
 Scb.TextSize = 14.000
-Scb.MouseButton1Click:connect(function()
+Scb.MouseButton1Click:connect(function)()
 	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 wait(1)
+	RoGhoul.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	print('Chat Bypasser Loaded!')
+end)
+
+RoGhoul.Name = "RoGhoul"
+RoGhoul.Parent = Idk
+RoGhoul.Position = UDim2.new(0.4453125, 0, 0.208333328, 0)
+RoGhoul.Size = UDim2.new(0, 105, 0, 39)
+RoGhoul.Font = Enum.Font.SciFi
+RoGhoul.Text = "Ro Ghoul"
+RoGhoul.TextColor3 = Color3.fromRGB(255, 255, 255)
+RoGhoul.TextSize = 22.000
+RoGhoul.MouseButton1Click:connect(function()
+	loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+Wait(1)
+	print('Ro Ghoul Auto Farm Loaded!')
 end)
 
 help.Name = "help"
@@ -12082,8 +12097,8 @@ help.Text = "Help"
 help.TextColor3 = Color3.fromRGB(255, 255, 255)
 help.TextSize = 36.000
 help.TextWrapped = true
-help.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/HelpButtonPrint.lua'))()
+help.MouseButton1Click:connect(function)()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/HelpButtonPrint.lua'))
 end)
 
 OpenIdk.Name = "OpenIdk"
