@@ -1,4 +1,9 @@
--- Made By Di0
+--[[
+Gui to Lua
+Version: 3.2
+Made By Di0#9117
+]]
+-- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Idk = Instance.new("Frame")
@@ -9,6 +14,8 @@ local close = Instance.new("TextButton")
 local W4 = Instance.new("TextButton")
 local Owl = Instance.new("TextButton")
 local About = Instance.new("TextButton")
+local Scb = Instance.new("TextButton")
+local help = Instance.new("TextButton")
 local OpenIdk = Instance.new("Frame")
 local Open = Instance.new("TextButton")
 
@@ -22,7 +29,6 @@ Idk.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 Idk.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Idk.Position = UDim2.new(0.268316805, 0, 0.345191002, 0)
 Idk.Size = UDim2.new(0, 512, 0, 264)
-Idk.Draggable = true
 
 Title.Name = "Title"
 Title.Parent = Idk
@@ -32,7 +38,7 @@ Title.Font = Enum.Font.SciFi
 Title.Text = "Di0 Hub"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 24.000
-
+-- Scripts.
 InfiniteYield.Name = "InfiniteYield"
 InfiniteYield.Parent = Idk
 InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -42,7 +48,7 @@ InfiniteYield.Font = Enum.Font.SciFi
 InfiniteYield.Text = "Infinite Yield"
 InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfiniteYield.TextSize = 14.000
-InfiniteYield.MouseButton1Down:connect(function()
+InfiniteYield.MouseButton1Click:connect(function)()
 	if IY_LOADED and not _G.IY_DEBUG == true then
 		error("Infinite Yield is already running!",0)
 		return
@@ -11979,10 +11985,13 @@ tww.Font = Enum.Font.SciFi
 tww.Text = "The Wild West"
 tww.TextColor3 = Color3.fromRGB(255, 255, 255)
 tww.TextSize = 15.000
-tww.MouseButton1Click:connect(function()
+tww.MouseButton1Click:connect(function)()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/ROBLOX/main/TWW%20Legendary%20Finder.lua"))()
+wait(1)
+	print('The Wild West Legendary Pet Finder has been loaded!')
 end)
 
+-- Close Button Script
 close.Name = "close"
 close.Parent = Idk
 close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -11992,7 +12001,6 @@ close.Font = Enum.Font.SciFi
 close.Text = "Close"
 close.TextColor3 = Color3.fromRGB(255, 255, 255)
 close.TextSize = 14.000
-close.Draggable = true
 close.MouseButton1Down:connect(function()
 	Idk.Visible = false
 	OpenIdk.Visible = true
@@ -12007,9 +12015,12 @@ W4.Font = Enum.Font.SciFi
 W4.Text = "Vape V4"
 W4.TextColor3 = Color3.fromRGB(255, 255, 255)
 W4.TextSize = 20.000
-W4.MouseButton1Click:connect(function()
+W4.MouseButton1Click:connect(function)()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+wait(1)
+	print('Vape V4 Successfully Injected!')
 end)
+
 
 Owl.Name = "Owl"
 Owl.Parent = Idk
@@ -12017,11 +12028,13 @@ Owl.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Owl.Position = UDim2.new(0.228515625, 0, 0.397727311, 0)
 Owl.Size = UDim2.new(0, 98, 0, 39)
 Owl.Font = Enum.Font.SciFi
-Owl.Text = "Owl Hub"
+Owl.Text = "OwlHub"
 Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
 Owl.TextSize = 20.000
-Owl.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+Owl.MouseButton1Click:connect(function)()
+	(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	wait(1)
+	print('Owl Hub Loaded!')
 end)
 
 About.Name = "About"
@@ -12038,9 +12051,36 @@ About.MouseButton1Click:connect(function()
 wait(1)
 	print("I DON'T OWN THESE SCIPTS! I ONLY MADE THE DI0 HUB GUI AND GUI SCRIPTS WITH G2L(Gui 2 Lua)")
 wait(1)
-	print("This is my First Gui Pls Dont Bully me ;-;")
+	print("This Is My First Script So it can be Sh1t")
+end)
+
+Scb.Name = "Scb"
+Scb.Parent = Idk
+Scb.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Scb.Position = UDim2.new(0.791015625, 0, 0.829545438, 0)
+Scb.Size = UDim2.new(0, 107, 0, 45)
+Scb.Font = Enum.Font.SciFi
+Scb.Text = "Chat Bypasser"
+Scb.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scb.TextSize = 14.000
+Scb.MouseButton1Click:connect(function)()
+	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 wait(1)
-	print("Also Please dont fork it :d")
+	print('Chat Bypasser Loaded!')
+end)
+
+help.Name = "help"
+help.Parent = Idk
+help.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+help.Position = UDim2.new(0.595703125, 0, 0.833333313, 0)
+help.Size = UDim2.new(0, 90, 0, 44)
+help.Font = Enum.Font.Sarpanch
+help.Text = "Help"
+help.TextColor3 = Color3.fromRGB(255, 255, 255)
+help.TextSize = 36.000
+help.TextWrapped = true
+help.MouseButton1Click:connect(function)()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/HelpButtonPrint.lua'))
 end)
 
 OpenIdk.Name = "OpenIdk"
@@ -12059,7 +12099,6 @@ Open.Text = "Open"
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 Open.TextSize = 26.000
 Open.TextWrapped = true
-Open.Draggable = true
 Open.MouseButton1Down:connect(function()
 	OpenIdk.Visible = false
 	Idk.Visible = true
