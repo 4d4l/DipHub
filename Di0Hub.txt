@@ -38,7 +38,9 @@ Title.Font = Enum.Font.SciFi
 Title.Text = "Di0 Hub"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 24.000
+
 -- Scripts.
+
 InfiniteYield.Name = "InfiniteYield"
 InfiniteYield.Parent = Idk
 InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -11992,6 +11994,7 @@ wait(1)
 end)
 
 -- Close Button Script
+
 close.Name = "close"
 close.Parent = Idk
 close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
