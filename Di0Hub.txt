@@ -12083,7 +12083,7 @@ help.TextColor3 = Color3.fromRGB(255, 255, 255)
 help.TextSize = 36.000
 help.TextWrapped = true
 help.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/HelpButtonPrint.lua'))
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/HelpButtonPrint.lua'))()
 end)
 
 OpenIdk.Name = "OpenIdk"
