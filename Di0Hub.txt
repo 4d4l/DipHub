@@ -51,7 +51,7 @@ InfiniteYield.Font = Enum.Font.SciFi
 InfiniteYield.Text = "Infinite Yield"
 InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfiniteYield.TextSize = 14.000
-InfiniteYield.MouseButton1Click:connect(function)()
+InfiniteYield.MouseButton1Click:connect(function()
 	if IY_LOADED and not _G.IY_DEBUG == true then
 		error("Infinite Yield is already running!",0)
 		return
