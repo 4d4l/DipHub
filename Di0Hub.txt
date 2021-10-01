@@ -13406,7 +13406,7 @@ About.MouseButton1Click:connect(function()
 wait(1)
 	print("I DON'T OWN THESE SCIPTS! I ONLY MADE THE DI0 HUB GUI AND GUI SCRIPTS WITH G2L(Gui 2 Lua)")
 wait(1)
-	print("Please Dont Fork it lmao)
+	print("Please Dont Fork it lmao")
 end)
 
 OpenIdk.Name = "OpenIdk"
