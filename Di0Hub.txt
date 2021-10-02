@@ -12035,7 +12035,7 @@ Owl.Text = "OwlHub"
 Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
 Owl.TextSize = 20.000
 Owl.MouseButton1Click:connect(function()
-	(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 wait(1)
 	print('Owl Hub Loaded!')
 end)
