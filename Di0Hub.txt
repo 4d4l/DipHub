@@ -12099,7 +12099,7 @@ PSX.Font = Enum.Font.SpecialElite
 PSX.Text = "Pet Sim X"
 PSX.TextColor3 = Color3.fromRGB(255, 255, 255)
 PSX.TextSize = 20.000
-PSX.MouseButton1Click:connect(function)()
+PSX.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua", true))()
 end)
 
