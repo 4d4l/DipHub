@@ -77,9 +77,8 @@ Di0Hub.TextColor3 = Color3.fromRGB(255, 255, 255)
 Di0Hub.TextScaled = true
 Di0Hub.TextSize = 14.000
 Di0Hub.TextWrapped = true
-Di0Hub.MouseButton1Click:connect(function()
+Di0Hub.MouseButton2Click:connect(function() -- Right Click
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/Di0%20Hub%20Obfuscated.lua'))()
-Wait(1)
 	Loader2.Visible = false
 end)
 
