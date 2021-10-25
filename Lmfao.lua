@@ -47,7 +47,7 @@ TextButton.TextWrapped = true
 TextButton.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/Di0%20Hub%20Loader.lua"))()
 wait(0.2)
-	Lmfao.Visible = false
+	Lol.Visible = false
 end)
 
 -- Scripts:
