@@ -62,7 +62,7 @@ Di0HubMini.TextWrapped = true
 Di0HubMini.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/Di0%20Hub%20Mini.lua"))()
 wait(1)
-	Loader.Visible = false
+	Loader2.Visible = false
 end)
 
 Di0Hub.Name = "Di0 Hub"
@@ -86,7 +86,7 @@ end)
 -- Scripts:
 
 local function KZCOF_fake_script() -- Loader_2.Loader Drag 
-	local script = Instance.new('LocalScript', Loader_2)
+	local script = Instance.new('LocalScript', Loader2)
 
 	local Loader = script.Parent
 	
