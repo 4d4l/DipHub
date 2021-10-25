@@ -1,7 +1,14 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local Lmfao = Instance.new("ScreenGui")
 local Lol = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
+
+--Properties:
 
 Lmfao.Name = "Lmfao"
 Lmfao.Parent = game.CoreGui
@@ -31,7 +38,7 @@ TextButton.BorderColor3 = Color3.fromRGB(85, 170, 255)
 TextButton.Position = UDim2.new(0.206798866, 0, 0.442307681, 0)
 TextButton.Size = UDim2.new(0, 205, 0, 62)
 TextButton.Font = Enum.Font.Cartoon
-TextButton.Text = "Shut the RnVjaw== up and Load the hub"
+TextButton.Text = "Shut the fuck up and Load the hub"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
@@ -39,12 +46,16 @@ TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextWrapped = true
 TextButton.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/Di0%20Hub%20Loader.lua"))()
+wait(0.2)
+	Lmfao.Visible = false
 end)
+
+-- Scripts:
 
 local function bruh_fake_script()
 	local script = Instance.new('LocalScript',Lol)
 
-	local Frame = script.Parent
+	local Lol = script.Parent
 
 	if Lol then
 		Lol.Draggable = true
