@@ -4,4 +4,4 @@
 Pet Simulator X, Chat Bypasser,Kick Button, Ls(Lifting Simulator))
 (I will Add More Scripts to it)]]
 
---Discord : https://discord.gg/xQTnxccjpU --Its an Turkish server If u dont understand Turkish just fricking translate
+--Discord : https://discord.gg/HcsDCkbS78
