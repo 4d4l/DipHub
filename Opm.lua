@@ -1,3 +1,5 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/4d4l/AAAAAAAA/Scripts/ui')))()
+
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
