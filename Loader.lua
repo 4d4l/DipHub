@@ -46,7 +46,7 @@ c:Label("Shindo Life",{
     BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
 })
 
-e:Label("Termed",{
+e:Label("I don't answer on discord anymore",{
     TextSize = 25; -- Self Explaining
     TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
     BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
